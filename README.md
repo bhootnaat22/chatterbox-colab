@@ -5,6 +5,7 @@
 
 [![Alt Text](https://img.shields.io/badge/listen-demo_samples-blue)](https://resemble-ai.github.io/chatterbox_demopage/)
 [![Alt Text](https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-sm.svg)](https://huggingface.co/spaces/ResembleAI/Chatterbox)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bhootnaat22/chatterbox-colab/blob/master/chatterbox_colab.ipynb)
 [![Alt Text](https://static-public.podonos.com/badges/insight-on-pdns-sm-dark.svg)](https://podonos.com/resembleai/chatterbox)
 [![Discord](https://img.shields.io/discord/1377773249798344776?label=join%20discord&logo=discord&style=flat)](https://discord.gg/rJq9cRJBJ6)
 
@@ -12,7 +13,11 @@ _Made with ♥️ by <a href="https://resemble.ai" target="_blank"><img width="1
 
 We're excited to introduce Chatterbox, [Resemble AI's](https://resemble.ai) first production-grade open source TTS model. Licensed under MIT, Chatterbox has been benchmarked against leading closed-source systems like ElevenLabs, and is consistently preferred in side-by-side evaluations.
 
-Whether you're working on memes, videos, games, or AI agents, Chatterbox brings your content to life. It's also the first open source TTS model to support **emotion exaggeration control**, a powerful feature that makes your voices stand out. Try it now on our [Hugging Face Gradio app.](https://huggingface.co/spaces/ResembleAI/Chatterbox)
+Whether you're working on memes, videos, games, or AI agents, Chatterbox brings your content to life. It's also the first open source TTS model to support **emotion exaggeration control**, a powerful feature that makes your voices stand out.
+
+**🚀 Try it now:**
+- [Hugging Face Gradio App](https://huggingface.co/spaces/ResembleAI/Chatterbox) - Official demo
+- [Google Colab Notebook](https://colab.research.google.com/github/bhootnaat22/chatterbox-colab/blob/master/chatterbox_colab.ipynb) - Run with free GPU
 
 If you like the model but need to scale or tune it for higher accuracy, check out our competitively priced TTS service (<a href="https://resemble.ai">link</a>). It delivers reliable performance with ultra-low latency of sub 200ms—ideal for production use in agents, applications, or interactive media.
 
@@ -37,11 +42,20 @@ If you like the model but need to scale or tune it for higher accuracy, check ou
 
 
 # Installation
+
+## Quick Start Options
+
+### 🚀 Google Colab (Recommended for beginners)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bhootnaat22/chatterbox-colab/blob/master/chatterbox_colab.ipynb)
+
+No installation required! Just click the badge above and run the notebook with free GPU access.
+
+### 📦 PyPI Installation
 ```shell
 pip install chatterbox-tts
 ```
 
-Alternatively, you can install from source:
+### 🔧 From Source
 ```shell
 # conda create -yn chatterbox python=3.11
 # conda activate chatterbox
